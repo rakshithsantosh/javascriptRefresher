@@ -18,6 +18,9 @@ class Person {
 //properties which are tied to the class itself is known as static properties and these are not tied to the object instances
 
 //static methods can be called without creating an object and these are called on the class itself and is not available on the instances of the class
+
+//this generally refers to the current object but in static method it refers to the class itself
+
 // we can instantiate an object by using the keyword new
 
 let person = new Person("John", 30);
