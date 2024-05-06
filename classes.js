@@ -21,9 +21,15 @@ let person = new Person("John", 30);
 //function placed in a class are called methods (instance methods) they have access to all properties of the object with this keyword 
 
 class Person2 extends Person {
+    constructor(name, age,city){
+        super(name,age);
+        this.city=city
+    }
     describe() {
         console.log(this.name + " is " + this.age + " years old");
     }
 }
 
 // we can use extends to inherit methods from another class
+// while using the constructor in the child(derived) class before using the this keyword use super to call the constructor of the parent class
+//super keyword is used to call the constructor of the parent class
