@@ -44,3 +44,9 @@ class Person2 extends Person {
 // we can use extends to inherit methods from another class
 // while using the constructor in the child(derived) class before using the this keyword use super to call the constructor of the parent class
 //super keyword is used to call the constructor of the parent class
+
+//private class feild is not available outside of the class and is only accessible within the class
+//we can use # to declare a private field
+//we can use getters and setter to access the rpivate feild
+
+//private methods are not available outside of the class
