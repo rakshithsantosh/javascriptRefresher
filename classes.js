@@ -54,3 +54,6 @@ class Person2 extends Person {
 //when you call a function on a class then the this keyword is mapped to the isntance of the class but if the function is isolated and called in the global scope then the value of this will be undefined
 
 //call method then we use call(this) we are calling a function with a specified this keyword eg: if i have a method in an object called One and i want to use the method in another object called Two then i can call the method using OneMethod.call(Two) here i am passing the this keyword of Two as this
+
+//The main difference between call() and apply() lies in how they accept arguments. call() accepts arguments individually, while apply() accepts arguments as an array or an array-like object.
+//call() is generally more suitable when you know the exact arguments you want to pass, whereas apply() is useful when you want to pass an array of arguments or when the number of arguments is dynamic.
