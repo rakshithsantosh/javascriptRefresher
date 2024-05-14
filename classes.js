@@ -50,3 +50,5 @@ class Person2 extends Person {
 //we can use getters and setter to access the rpivate feild
 
 //private methods are not available outside of the class
+
+//when you call a function on a class then the this keyword is mapped to the isntance of the class but if the function is isolated and called in the global scope then the value of this will be undefined

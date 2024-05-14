@@ -46,3 +46,5 @@ person.address = "123 Main St";
 person["address"] = "123 Main St";
 
 //getters are used to retrive a property value
+
+//when a function is called inside the object then the this keyword refers to the object but if the function is isolated and called in the global scope then the value of this will be window
