@@ -52,3 +52,5 @@ class Person2 extends Person {
 //private methods are not available outside of the class
 
 //when you call a function on a class then the this keyword is mapped to the isntance of the class but if the function is isolated and called in the global scope then the value of this will be undefined
+
+//call method then we use call(this) we are calling a function with a specified this keyword eg: if i have a method in an object called One and i want to use the method in another object called Two then i can call the method using OneMethod.call(Two) here i am passing the this keyword of Two as this
