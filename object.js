@@ -48,3 +48,8 @@ person["address"] = "123 Main St";
 //getters are used to retrive a property value
 
 //when a function is called inside the object then the this keyword refers to the object but if the function is isolated and called in the global scope then the value of this will be window
+
+//we can bind arguments to a function with the function.bind(null,arguments)
+//if we want to access a method outside of the object and we want to pass another object as an argument we can use the function.bind(this)
+
+//bind() method is used to create a new function that has a specified this value and, optionally, a fixed set of arguments. This method allows you to permanently set the value of this for any function, regardless of how it's called
